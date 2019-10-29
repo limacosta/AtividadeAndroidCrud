@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProjetoCrud</string>
+    <string name="BtAdicionar">Adicionar Filmes</string>
+    <string name="BtAdicionar1">Adicionar Cd\'s</string>
+    <string name="V" />
+    <string name="btVerCD">Exibir Cd´s</string>
+    <string name="btPesquisar">Pesquisar Cd´s</string>
+    <string name="btSair">Sair</string>
+    <string name="btInserir">Inserir CD</string>
+    <string name="textAno">Digite o Ano:</string>
+    <string name="textGravadora">Digite o nome :</string>
+    <string name="textGravadora1">Digite a Gravadora:</string>
+    <string name="textArtista">Digite o Artista:</string>
+    <string name="btEditar">Editar</string>
+    <string name="textid">Digite o ID:</string>
+    <string name="btExcluir">Excluir</string>
+</resources>

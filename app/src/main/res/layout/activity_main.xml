@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:foregroundGravity="fill"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_horizontal"
+        android:text="Locadora"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btAdicionar"
+        android:layout_width="219dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/BtAdicionar1"
+        app:layout_constraintBottom_toTopOf="@+id/btExibir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btExibir"
+        android:layout_width="222dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/btVerCD"
+        app:layout_constraintBottom_toTopOf="@+id/btPesquisar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btAdicionar" />
+
+    <Button
+        android:id="@+id/btPesquisar"
+        android:layout_width="226dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="140dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/btPesquisar"
+        app:layout_constraintBottom_toTopOf="@+id/btSair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btExibir" />
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="70dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/btSair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btPesquisar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
